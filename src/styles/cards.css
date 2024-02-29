@@ -1,0 +1,25 @@
+.cards-cnt {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    position: absolute;
+}
+
+.cards-cnt img {
+    max-width: 20rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width: 1200px) and (max-width: 1700px){
+    .cards-cnt{
+        padding-top: 35vh;
+    }
+}
+
+@media (max-width: 768px){
+    .cards-cnt{
+        display: none;
+    }
+   
+}
