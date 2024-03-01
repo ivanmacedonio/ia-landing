@@ -3,14 +3,18 @@
     grid-template-columns: repeat(2,1fr);
     column-gap: 5rem;
     padding: 10vh 10vw;
+    background-color: rgb(32, 32, 32);
 }
 
 .contact-icons h1{
     color: white;
     font-size: 3.5rem;
-    font-weight: 500;
+    font-weight: 700;
     max-width: 80%;
     margin-top: 0;
+}
+.contact-cnt strong{
+    color: rgb(127, 33, 215);
 }
 .contact-icons p{
     color: gray;

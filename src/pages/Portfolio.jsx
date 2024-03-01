@@ -17,7 +17,7 @@ export const Portfolio = () => {
           >
             <div className="player-wrapper">
               <ReactPlayer
-                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2FAs%C3%AD%20ve%20la%20Crisis%20Clim%C3%A1tica%20una%20Inteligencia%20Artificial.mp4?alt=media&token=9f991a64-26c3-4986-a5ce-361e5fd53724"
+                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2Ffinal5.mp4?alt=media&token=796749d8-8c2a-4798-8caf-c4ee274522d7"
                 className="react-player"
                 controls
                 width="100%"
@@ -25,9 +25,9 @@ export const Portfolio = () => {
               ></ReactPlayer>
             </div>
             <p>
-              Lleva tu creatividad al siguiente nivel y plasma tus ideas en
-              videos. Combina ideas y da lugar a increíbles producciones
-              audiovisuales
+              Crea <strong>videos musicales</strong> y lleva tu creatividad al
+              siguiente nivel. Plasma tus ideas en videos, combinalas y da lugar
+              a increíbles producciones audiovisuales
             </p>
             <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
               Ver más <img src={arrow} alt="" />
@@ -41,7 +41,7 @@ export const Portfolio = () => {
           >
             <div className="player-wrapper">
               <ReactPlayer
-                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2FGoal%20Higuain%20-%20Edit%205%20AI%20marble%20goal%20op%202.mp4?alt=media&token=89ca3f69-0f15-4242-8942-227873c89f0f"
+                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2FEspecies%20(1).mp4?alt=media&token=0f87db5a-7100-4ee0-810f-405a4838a5c8"
                 className="react-player"
                 controls
                 width="100%"
@@ -58,11 +58,34 @@ export const Portfolio = () => {
               Ver más <img src={arrow} alt="" />
             </a>
           </motion.div>
+          <motion.div
+            className="portfolio-card"
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <div className="player-wrapper">
+              <ReactPlayer
+                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2FMagia%20-%20final%20con%20placas.mp4?alt=media&token=9af868f8-8612-489c-b614-de6f81a130b7"
+                className="react-player"
+                controls
+                width="100%"
+                height="100%"
+              ></ReactPlayer>
+            </div>
+            <p>Producciones de calidad Élite</p>
+            <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
+              Ver más <img src={arrow} alt="" />
+            </a>
+          </motion.div>
         </div>
         <div className="portfolio-col">
           <div className="portfolio-title">
-            <p>Algunos de mis proyectos</p>
-            <h1>Inteligencia artificial en cada aspecto de la vida</h1>
+            <p>Otros proyectos</p>
+            <h1>
+              Inteligencia artificial{" "}
+              <strong>en cada aspecto de la vida</strong>
+            </h1>
           </div>
           <motion.div
             className="portfolio-card"
@@ -110,10 +133,30 @@ export const Portfolio = () => {
               Ver más <img src={arrow} alt="" />
             </a>
           </motion.div>
+          <motion.div
+            className="portfolio-card"
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <div className="player-wrapper">
+              <ReactPlayer
+                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2Fv3%20grande.mp4?alt=media&token=c7968128-b5b5-4ee3-9713-32eada223187"
+                className="react-player"
+                controls
+                width="100%"
+                height="100%"
+              ></ReactPlayer>
+            </div>
+            <p>
+              Exprime tu creatividad al máximo y plasma tus ideas en un
+              increíble videoclip
+            </p>
+            <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
+              Ver más <img src={arrow} alt="" />
+            </a>
+          </motion.div>
         </div>
-      </div>
-      <div className="portfolio-link">
-        <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">Ver portfolio</a>
       </div>
     </React.Fragment>
   );

@@ -19,8 +19,8 @@ function App() {
       </div>
       <Titles></Titles>
       <About></About>
-      <Portfolio></Portfolio>
       <Testimonios></Testimonios>
+      <Portfolio></Portfolio>
       <Contact></Contact>
     </>
   );

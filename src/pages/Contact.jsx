@@ -14,7 +14,7 @@ export const Contact = () => {
       </div>
       <div className="contact-icons">
         <p>¿Querés saber más?</p>
-        <h1>Encuéntrame en las redes</h1>
+        <h1>Encuéntrame en las <strong>redes</strong></h1>
         <label className="contact-icons">
           <a href="https://www.youtube.com/channel/UCD8PJaeKUQe6fGMXEsONqIg">
             <motion.img src={yt} alt="" whileHover={{ y: -10 }} />
