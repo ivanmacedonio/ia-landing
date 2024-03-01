@@ -1,0 +1,90 @@
+.testimonios-cnt {
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5vh 20vw;
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+.testimonios-card img {
+    max-width: 2.2rem;
+    margin-right: 10px;
+}
+
+.testimonios-card {
+    background-color: rgb(17, 17, 17);
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+}
+
+.testimonios-card p {
+    color: rgb(138, 138, 142);
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.user {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user img {
+    max-width: 6rem !important;
+    border-radius: 50%;
+}
+
+.user p {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.user h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.testimonios-title{
+    padding: 7vh 0 0 3vw;
+}
+
+.testimonios-title p {
+    color: rgb(138, 138, 142);
+    font-size: 1.2rem;
+}
+.testimonios-title strong{
+    color: rgb(213, 102, 213);
+}
+.testimonios-title h2{
+    color: white;
+    font-size: 3rem;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1700px){
+    .testimonios-cnt{
+        padding: 5vh 5vw;
+    }
+}
+
+@media(max-width: 768px){
+   
+    .testimonios-cnt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonios-card p{
+        font-size: 1.1rem;
+    }
+    .user img{
+        max-width: 4rem !important;
+    }
+}

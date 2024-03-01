@@ -1,0 +1,59 @@
+.contact-cnt{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5rem;
+    padding: 10vh 10vw;
+}
+
+.contact-icons h1{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 500;
+    max-width: 80%;
+    margin-top: 0;
+}
+.contact-icons p{
+    color: gray;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-img img{
+    max-width: 80%;
+}
+
+.contact-icons label{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.contact-icons img{
+    max-width: 4rem;
+    cursor: pointer;
+}
+.mail img{
+    max-width: 2rem;
+}
+.mail{
+    display: flex;
+    gap: 1rem !important;
+    margin-top: 3rem;
+}
+.mail p{
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px){
+    .contact-cnt{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-img img{
+        max-width: 100%;
+    }
+    .contact-cnt h1{
+        font-size: 3rem;
+        max-width: 100%;
+    }
+}

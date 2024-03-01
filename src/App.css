@@ -6,11 +6,12 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'inter';
-}
-
-body {
+  background-color: rgb(17, 17, 17);
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+
 
 a {
   color: inherit;
@@ -19,4 +20,23 @@ a {
 
 li {
   list-style-type: none;
+}
+.wp{
+  position: fixed;
+  width: fit-content;
+  left: 90%;
+  top: 90%;
+}
+.wp img{
+  width: 3.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .wp{
+    left: 80%;
+  }
+  .wp img{
+    width: 3rem;
+  }
 }
