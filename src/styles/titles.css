@@ -7,6 +7,9 @@
     height: 80vh;
     padding-top: 20vh;
 }
+.titles-cnt strong{
+    color: rgb(0, 207, 0);
+}
 .titles-cnt p{
     color: rgb(125, 125, 125);
     font-size: 1.6rem;

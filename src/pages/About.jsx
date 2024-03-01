@@ -16,7 +16,7 @@ export const About = () => {
           transition={{ duration: 1 }}
         >
           <p style={{ marginBottom: 0 }}>
-            Por qué <strong style={{ color: "purple" }}>IA</strong>
+            Por qué <strong>IA</strong>
           </p>
           <h2>
             La inteligencia artificial supera los límites humanos en creatividad

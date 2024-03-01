@@ -1,4 +1,4 @@
-.about-cnt{
+.about-cnt {
     background-color: #202020;
     height: 70vh;
     display: flex;
@@ -6,80 +6,97 @@
     gap: 4rem;
     padding-top: 30vh;
 }
-.about-cnt p{
+
+.about-cnt p {
     font-size: 1.4rem;
     color: rgb(156, 156, 156);
     font-weight: 300;
 }
-.about-title{
+
+.about-title {
     max-width: 40%;
     text-align: end;
 }
 
-.about-title h2{
+.about-cnt strong {
+    color: rgb(0, 207, 0);
+}
+
+.about-title h2 {
     color: white;
     font-size: 3rem;
     font-weight: 500;
     margin-top: 10px;
 }
-.about-description{
+
+.about-description {
     max-width: 30%;
 }
-.about-description h3{
+
+.about-description h3 {
     color: white;
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 0;
+    color: rgb(0, 207, 0);
 }
-.about-description p{
+
+.about-description p {
     margin-top: 10px;
     font-size: 1.2rem;
     line-height: 28px;
 }
-.about-cards-cnt{
+
+.about-cards-cnt {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@media(min-width: 1200px) and (max-width: 1700px){
-    .about-cnt{
+@media(min-width: 1200px) and (max-width: 1700px) {
+    .about-cnt {
         height: 100vh;
         padding-top: 55vh;
     }
-    .about-title h2{
+
+    .about-title h2 {
         font-size: 2rem;
     }
-    
+
 }
 
-@media (max-width: 768px){
-    .about-cards-cnt{
+@media (max-width: 768px) {
+    .about-cards-cnt {
         display: none;
     }
-    .about-cnt{
+
+    .about-cnt {
         padding-top: 10vh;
         flex-direction: column;
         height: auto;
     }
-    .about-title{
+
+    .about-title {
         max-width: 90%;
         padding: 0 2rem;
     }
-    .about-description{
+
+    .about-description {
         max-width: 100%;
         padding: 0 2rem;
         padding-bottom: 5rem;
     }
-    .about-title h2{
+
+    .about-title h2 {
         font-size: 1.5rem;
         color: rgb(224, 224, 224);
     }
 
-    .about-description h3{
+    .about-description h3 {
         font-size: 1.5rem;
     }
-    .about-description p{
+
+    .about-description p {
         font-size: 1.1rem;
     }
 }

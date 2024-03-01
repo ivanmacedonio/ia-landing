@@ -12,7 +12,7 @@ export const Titles = () => {
       transition={{ duration: 1 }}
     >
       <p>
-        Soy <strong style={{ color: "purple" }}>Francisco Pedroza.</strong>
+        Soy <strong>Francisco Pedroza.</strong>
       </p>
       <h2>Creador de videos con inteligencia artificial</h2>
       <p>

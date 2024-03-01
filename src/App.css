@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body,
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'inter';
+  font-family: 'Exo 2';
   background-color: rgb(17, 17, 17);
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -21,22 +22,25 @@ a {
 li {
   list-style-type: none;
 }
-.wp{
+
+.wp {
   position: fixed;
   width: fit-content;
   left: 90%;
   top: 90%;
 }
-.wp img{
+
+.wp img {
   width: 3.5rem;
   cursor: pointer;
 }
 
-@media (max-width: 768px){
-  .wp{
+@media (max-width: 768px) {
+  .wp {
     left: 80%;
   }
-  .wp img{
+
+  .wp img {
     width: 3rem;
   }
 }
