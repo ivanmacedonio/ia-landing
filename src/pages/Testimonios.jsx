@@ -28,7 +28,7 @@ export const Testimonios = () => {
           <strong>Marcas</strong> que confiaron en mi
         </p>
         <h2>
-          Lleva tu negocio al siguiente nivel usando la poderosisima
+          Lleva tus proyectos al siguiente nivel usando la poderosisima
           inteligencia artificial
         </h2>
       </div>

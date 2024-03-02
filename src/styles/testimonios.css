@@ -115,6 +115,9 @@
     .testimonios-cnt{
         padding: 5vh 5vw;
     }
+    .estadio{
+        max-width: 80%;
+    }
 }
 
 @media(max-width: 768px){
