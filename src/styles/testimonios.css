@@ -6,6 +6,22 @@
     column-gap: 3rem;
     row-gap: 3rem;
 }
+.estadio h1{
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    color: rgb(179, 179, 179);
+    font-size: 1.2rem;
+}
+.estadio img{
+    max-width: 2rem;
+}
+.estadio label{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem ;
+}
 
 .testimonios-card img {
     max-width: 2.2rem;
@@ -23,6 +39,10 @@
     font-size: 1.4rem;
     font-weight: 300;
 }
+.estadio{
+    grid-column: span 3 !important;
+    max-width: 60%;
+}
 
 .user {
     margin-top: 2rem;
@@ -33,7 +53,23 @@
 
 .user img {
     max-width: 7rem !important;
+    max-height: 5rem;
     border-radius: 1rem;
+}
+
+.clickable img{
+    max-width: 7rem;
+    max-height: 4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.clickable{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 7vh;
+    padding-left: 10vw;
+
 }
 
 .user p {
@@ -70,6 +106,10 @@
     margin-bottom: 3rem;
 }
 
+#scroll{
+    display: none;
+}
+
 
 @media (min-width: 1200px) and (max-width: 1700px){
     .testimonios-cnt{
@@ -78,6 +118,16 @@
 }
 
 @media(max-width: 768px){
+    
+
+    #scroll{
+        display: flex;
+    }
+    #scroll{
+        max-width: 4rem;
+        padding-left: 40%;
+        padding-top: 1rem;
+    }
    
     .testimonios-cnt{
         display: flex;
@@ -94,5 +144,11 @@
    
     .user img{
         max-width: 4rem !important;
+    }
+    .clickable img{
+        max-width: 4rem;
+    }
+    .clickable{
+        gap: 1rem;
     }
 }
