@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import card1 from "../assets/card1.webp";
-import card2 from "../assets/card2.webp";
-import card3 from "../assets/card3.webp";
+import card1 from "../assets/ig.mp4";
+import card2 from "../assets/logo.mp4";
 import "../styles/cards.css";
 export const Cards = () => {
   return (
@@ -12,9 +11,15 @@ export const Cards = () => {
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <img src={card1} alt="" />
-      <img src={card2} alt="" />
-      <img src={card3} alt="" />
+      <video autoPlay loop muted>
+        <source src={card1} type="video/mp4" />
+      </video>
+      <video autoPlay loop muted id="logo-video">
+        <source src={card2} type="video/mp4" />
+      </video>
+      <video autoPlay loop muted>
+        <source src={card1} type="video/mp4" />
+      </video>
     </motion.div>
   );
 };

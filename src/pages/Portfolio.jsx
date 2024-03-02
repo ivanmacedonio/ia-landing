@@ -7,6 +7,12 @@ import "../styles/portfolio.css";
 export const Portfolio = () => {
   return (
     <React.Fragment>
+      <div className="portfolio-title-mobile">
+        <p>Otros proyectos</p>
+        <h1>
+          Inteligencia artificial <strong>en cada aspecto de la vida</strong>
+        </h1>
+      </div>
       <div className="portfolio-cnt">
         <div className="portfolio-col">
           <motion.div
@@ -95,7 +101,7 @@ export const Portfolio = () => {
           >
             <div className="player-wrapper">
               <ReactPlayer
-                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2Fig.mp4?alt=media&token=b6179e8a-7465-4a99-a95c-af062c40eb26"
+                url="https://firebasestorage.googleapis.com/v0/b/ecommerce-fenix.appspot.com/o/files%2Ffinalcartas.mp4?alt=media&token=a59c8e3c-60c8-4d42-8d4f-e63454936447"
                 className="react-player"
                 controls
                 width="100%"
@@ -150,7 +156,7 @@ export const Portfolio = () => {
             </div>
             <p>
               Exprime tu creatividad al máximo y plasma tus ideas en un
-              increíble videoclip
+              increíble <strong>videoclip</strong>
             </p>
             <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
               Ver más <img src={arrow} alt="" />

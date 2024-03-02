@@ -5,10 +5,14 @@
     position: absolute;
 }
 
-.cards-cnt img {
-    max-width: 20rem;
+.cards-cnt video {
+    max-width: 12rem;
+    height: auto;
     border-radius: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#logo-video{
+    max-width: 16rem;
 }
 
 @media(min-width: 1200px) and (max-width: 1700px){

@@ -48,12 +48,13 @@
     margin-bottom: 10px;
 }
 .testimonios-title{
-    padding: 7vh 0 0 3vw;
+    padding: 7vh 0 0 10vw;
+    max-width: 50%;
 }
 
 .testimonios-title p {
     color: rgb(138, 138, 142);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .testimonios-title strong{
     color: rgb(0, 207, 0);
@@ -80,13 +81,17 @@
    
     .testimonios-cnt{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        overflow-x: auto;
+    }
+    .testimonios-title{
+        max-width: 80%;
     }
 
     .testimonios-card p{
         font-size: 1.1rem;
     }
+   
     .user img{
         max-width: 4rem !important;
     }
