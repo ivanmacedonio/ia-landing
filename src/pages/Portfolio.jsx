@@ -130,7 +130,7 @@ export const Portfolio = () => {
               ></ReactPlayer>
             </div>
             <p>
-              Converti tus historias en fabulosos metrajes con infinitas
+              Convertí tus historias en fabulosos metrajes con infinitas
               posibilidades
             </p>
             <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
