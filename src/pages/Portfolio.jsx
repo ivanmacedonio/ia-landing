@@ -130,10 +130,8 @@ export const Portfolio = () => {
               ></ReactPlayer>
             </div>
             <p>
-              Además de videos con la mejor calidad, la IA tiene la ventaja de
-              automatizar tareas repetitivas de la mejor forma. Genera
-              subtítulos automáticamente para tus proyectos con tan solo un
-              prompt
+              Converti tus historias en fabulosos metrajes con infinitas
+              posibilidades
             </p>
             <a href="https://www.behance.net/gallery/161307029/Inteligencia-artificial">
               Ver más <img src={arrow} alt="" />

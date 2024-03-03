@@ -1,7 +1,7 @@
 import bure from "../src/assets/bureau.jpg";
 import cros from "../src/assets/corss.jpg";
-import green from "../src/assets/green.png";
-import juve from "../src/assets/juve.jpg";
+import green from "../src/assets/g.jpeg";
+import juve from "../src/assets/j.jpeg";
  
  const data = [
     {

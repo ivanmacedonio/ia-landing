@@ -1,0 +1,9 @@
+.bixo h2{
+    color: white;
+    text-align: center;
+    padding: 3vh 0;
+}
+.bixo a{
+    color: purple;
+    text-decoration: underline;
+}

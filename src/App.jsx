@@ -1,6 +1,7 @@
 import wp from "../src/assets/wp.svg";
 import "./App.css";
 import { About } from "./pages/About";
+import { Bixo } from "./pages/Bixo";
 import { Contact } from "./pages/Contact";
 import { Portfolio } from "./pages/Portfolio";
 import { Testimonios } from "./pages/Testimonios";
@@ -22,6 +23,7 @@ function App() {
       <Testimonios></Testimonios>
       <Portfolio></Portfolio>
       <Contact></Contact>
+      <Bixo></Bixo>
     </>
   );
 }
