@@ -16,11 +16,13 @@ function App() {
     window.open(`https://wa.me/${number}?text=${message}`, "_blank");
   }
 
+  const [classname, setClass] = useState("no-scroll");
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
+      setClass("scrollclass")
       setLoading(false);
-    }, 10000);
+    }, 8000);
   }, []);
   return (
     <>
@@ -28,12 +30,14 @@ function App() {
         <img src={wp} alt="" onClick={handleWhatsAppClick} />
       </div>
       {loading ? <Loader /> : ""}
-      <Titles></Titles>
-      <About></About>
-      <Testimonios></Testimonios>
-      <Portfolio></Portfolio>
-      <Contact></Contact>
-      <Bixo></Bixo>
+      <div className={classname}>
+        <Titles></Titles>
+        <About></About>
+        <Testimonios></Testimonios>
+        <Portfolio></Portfolio>
+        <Contact></Contact>
+        <Bixo></Bixo>
+      </div>
     </>
   );
 }
